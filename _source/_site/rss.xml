@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Feed Name</title>
+    <link>http://domain/</link>
+    <atom:link href="http://domain/rss.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-au</language>
+    <pubDate>Wed, 15 May 2013 19:57:04 +09:30</pubDate>
+    <lastBuildDate>Wed, 15 May 2013 19:57:04 +09:30</lastBuildDate>
+
+        <item>
+            <title>My First Post</title>
+            <link>http://domain@post.Url</link>
+            <pubDate>Wed, 15 May 2013 0:00:00 </pubDate>
+            <author>Author</author>
+            <guid>http://domain@post.Url</guid>
+            <description>&lt;h2&gt;Hello world...&lt;/h2&gt;
+&lt;p&gt;This is my first post on the site!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+            <title>This is a test</title>
+            <link>http://domain@post.Url</link>
+            <pubDate>Tue, 14 May 2013 0:00:00 </pubDate>
+            <author>Author</author>
+            <guid>http://domain@post.Url</guid>
+            <description>&lt;h2&gt;Hi Hooooo!&lt;/h2&gt;
+&lt;p&gt;This is the beginning&lt;/p&gt;
+&lt;p&gt;This is the end&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One point&lt;/li&gt;
+&lt;li&gt;Two Points&lt;/li&gt;
+&lt;li&gt;Three Points&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;This is a smaller headerline&lt;/h1&gt;
+&lt;h3&gt;this is a tiny one&lt;/h3&gt;
+</description>
+        </item>
+
+  </channel> 
+</rss>
