@@ -36,19 +36,21 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
 </head>
 <body>
-	<div id="container">
-		<div id="content">
+	<div class="container">
+
+		<div class="twelve columns">
 			@Raw(Model.Content)
 		</div>
-		<div id="side">
-			<div id="hometext"><a href="/">This is the site name</a></div>
-			<div class="section">
-				<ul>
-					<li><a href="/about.html">about</a></li>
-					<li><a href="/rss.xml">feed</a></li>
-				</ul>
-			</div>
+
+		<div class="four columns">
+			<h1>Site Name</h1>
+			<ul>
+				<li><a href="/about.html">about</a></li>
+				<li><a href="/rss.xml">feed</a></li>
+			</ul>
+
 		</div>
+
 	</div>
 </body>
 </html>

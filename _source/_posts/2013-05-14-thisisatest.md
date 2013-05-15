@@ -2,7 +2,7 @@
 layout: post
 title: "This is a test"
 author: "Chris Dury"
-comments: true
+comments: false
 ---
 
 ## Hi Hooooo!

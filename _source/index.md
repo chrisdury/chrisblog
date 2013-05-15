@@ -6,7 +6,7 @@ title : SiteName
 
 <ul class="posts">
 @{
-    var numberPosts = 5;
+    var numberPosts = 1;
 }
     @for (var i = 0; i < numberPosts && i < Model.Site.Posts.Count; i++)
     {
@@ -40,7 +40,6 @@ title : SiteName
                             }
                         </ul>
                     </div>
-                    @Raw(post.Content)
 
                     <a href="@post.Url#disqus_thread">Comments</a>
                 }
@@ -51,10 +50,10 @@ title : SiteName
 
 <h3>OLDER</h3>
 <ul class="postArchive">
-@foreach(var post in Model.Site.Posts.Skip(5))
+@foreach(var post in Model.Site.Posts.Skip(numberPosts))
 {
     <li>
-        <span class="olderpostdate">@post.Date.ToString("d m")</span> <a class="postlink" href="@post.Url">@post.Title</a>
+        <span class="olderpostdate">@post.Date.ToString("d-MM")</span> <a class="postlink" href="@post.Url">@post.Title</a>
     </li>
 }
 </ul>

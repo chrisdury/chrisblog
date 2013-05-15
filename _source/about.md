@@ -4,6 +4,6 @@ title: About
 comments: false
 ---
 
-# About me
+## About me
 
 Chris is blah blah....
