@@ -1,0 +1,1 @@
+pretzel bake -template=Razor -d=_source
