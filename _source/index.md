@@ -1,6 +1,6 @@
 ---
 layout : layout
-title : SiteName
+title : Chris Dury
 ---
 @model Pretzel.Logic.Templating.Context.PageContext
 
@@ -15,9 +15,10 @@ title : SiteName
             <div class="idea">
                 @if (i == 0 && post.Layout == "post")
                 {
-                    <h1><a href="@post.Url">@post.Title</a></h1>
-
-                    <div class="postdate">@post.Date.ToString("d MMM, yyyy")
+					<h2>@post.Title</h2>                    
+                    @Raw(post.Content)
+                    <div class="postdate">@post.Date.ToString("d MMM, yyyy")</div>
+					<div>
                         <ul>
                             @foreach(var tag in post.Tags)
                             {
@@ -25,9 +26,7 @@ title : SiteName
                             }
                         </ul>
                     </div>
-                    @Raw(post.Content)
-                    <br />
-                    <a href="@post.Url#disqus_thread">Comments</a>
+					<a href="@post.Url#disqus_thread">Comments</a>
                 }
                 else
                 {

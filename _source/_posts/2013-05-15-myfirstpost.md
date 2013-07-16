@@ -5,6 +5,4 @@ author: "Author"
 comments: true
 ---
 
-## Hello world...
-
 This is my first post on the site!

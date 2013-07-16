@@ -5,8 +5,6 @@ author: "Chris Dury"
 comments: false
 ---
 
-## Hi Hooooo!
-
 This is the beginning
 
 This is the end

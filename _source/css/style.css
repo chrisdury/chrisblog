@@ -1,0 +1,48 @@
+body { 
+    background:#000;
+    font-family:arial, helvetica, sans-serif;
+    color:#fff;
+    line-height:inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Franklin Gothic Medium", helvetica, sans-serif;    
+    color:#fff;
+    text-transform:uppercase;
+    font-style:italic;
+    letter-spacing:-3px;
+}
+h1 {
+    line-height:inherit;
+}
+
+h1.site-title a {
+    letter-spacing:-5px;
+    text-transform:uppercase;
+    font-style:italic;
+    font-size:55px;
+    color:#333;
+    text-decoration:none;
+    line-height:55px;
+}
+h2 {
+    font-size:55px;
+    line-height:55px;
+}
+
+a, a:visited { color: #ff6a00; text-decoration: underline; outline: 0; }
+a:hover, a:focus { color: #b6ff00; }
+
+
+.container {
+    margin-top:20px;
+}
+
+.postdate {
+
+}
+
+
+ul.site-nav li {
+    display:inline;
+}
