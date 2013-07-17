@@ -5,8 +5,6 @@ author: "Chris Dury"
 comments: false
 ---
 
-## First Post
-
 Well, after much experimentation with several options I have finally settled on a blog platform that is satisfying all my criteria. Basically, I wanted something that:
 
 * I could have full control of the template
