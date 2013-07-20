@@ -1,2 +1,2 @@
 [config]
-project = .\shim.sln
+project = .\shim.csproj
