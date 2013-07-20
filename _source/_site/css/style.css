@@ -21,7 +21,7 @@ h1.site-title a {
     text-transform:uppercase;
     font-style:italic;
     font-size:55px;
-    color:#333;
+    color:#444;
     text-decoration:none;
     line-height:55px;
 }
@@ -42,7 +42,18 @@ a:hover, a:focus { color: #b6ff00; }
 
 }
 
+ul {
+    margin-left: 20px;
+}
 
+li {
+    list-style-type:disc;
+    color: #fff;
+}
+
+ul.site-nav {
+    margin: 0;
+}
 ul.site-nav li {
-    display:inline;
+    display:block;
 }

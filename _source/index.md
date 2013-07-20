@@ -4,14 +4,13 @@ title : Chris Dury
 ---
 @model Pretzel.Logic.Templating.Context.PageContext
 
-<ul class="posts">
+<div class="posts">
 @{
     var numberPosts = 1;
 }
     @for (var i = 0; i < numberPosts && i < Model.Site.Posts.Count; i++)
     {
         var post = Model.Site.Posts[i];
-        <li>
             <div class="idea">
                 @if (i == 0 && post.Layout == "post")
                 {
@@ -43,9 +42,9 @@ title : Chris Dury
                     <a href="@post.Url#disqus_thread">Comments</a>
                 }
             </div>
-        </li>
     }
-</ul>
+</div>
+
 
 <h3>OLDER</h3>
 <ul class="postArchive">
