@@ -1,6 +1,6 @@
 ---
 layout : layout
-title : Chris Dury
+title : Chris Dury Blog
 ---
 @model Pretzel.Logic.Templating.Context.PageContext
 
@@ -25,7 +25,6 @@ title : Chris Dury
                             }
                         </ul>
                     </div>
-					<a href="@post.Url#disqus_thread">Comments</a>
                 }
                 else
                 {
@@ -38,8 +37,6 @@ title : Chris Dury
                             }
                         </ul>
                     </div>
-
-                    <a href="@post.Url#disqus_thread">Comments</a>
                 }
             </div>
     }
@@ -55,18 +52,3 @@ title : Chris Dury
     </li>
 }
 </ul>
-
-<script type="text/javascript">
-//<![CDATA[
-(function () {
-    var links = document.getElementsByTagName('a');
-    var query = '?';
-    for (var i = 0; i < links.length; i++) {
-        if (links[i].href.indexOf('#disqus_thread') >= 0) {
-            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-        }
-    }
-    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/DISQUS_NAME/get_num_replies.js' + query + '"></' + 'script>');
-})();
-//]]>
-</script>
